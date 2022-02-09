@@ -23,11 +23,11 @@ class TestEgyenlet(TestCase):
         aktualis = feladatok.elsofoku_egyenlet(-100, 1567)
         elvart = 15.67
         self.assertEqual(elvart, aktualis, "Az elsőfokú egyenlet megoldását nem jól határozta meg!")
-    def test_feladat04(self):
+    def test_feladat05(self):
         aktualis = feladatok.elsofoku_egyenlet(0, 1)
         elvart = None
         self.assertEqual(elvart, aktualis, "Az elsőfokú egyenlet megoldását nem jól határozta meg!")
-    def test_feladat04(self):
+    def test_feladat06(self):
         aktualis = feladatok.elsofoku_egyenlet(0, 0)
         elvart = None
         self.assertEqual(elvart, aktualis, "Az elsőfokú egyenlet megoldását nem jól határozta meg!")
